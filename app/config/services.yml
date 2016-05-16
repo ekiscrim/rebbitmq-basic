@@ -1,0 +1,4 @@
+services:
+   rabbitmq_consumer:
+      class:      AppBundle\Service\Rabbitmq\Consumer
+      arguments:  [@logger]
